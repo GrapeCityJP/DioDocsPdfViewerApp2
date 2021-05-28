@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DioDocsPdfViewerApp2", "DioDocsPdfViewerApp2\DioDocsPdfViewerApp2.csproj", "{B86157E7-38FF-4988-9F7E-1A4831ED0228}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SupportApi", "SupportApi\SupportApi.csproj", "{5C242C60-CBE1-4D5E-A6B8-DE4A4D97B616}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B86157E7-38FF-4988-9F7E-1A4831ED0228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B86157E7-38FF-4988-9F7E-1A4831ED0228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B86157E7-38FF-4988-9F7E-1A4831ED0228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B86157E7-38FF-4988-9F7E-1A4831ED0228}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C242C60-CBE1-4D5E-A6B8-DE4A4D97B616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C242C60-CBE1-4D5E-A6B8-DE4A4D97B616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C242C60-CBE1-4D5E-A6B8-DE4A4D97B616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C242C60-CBE1-4D5E-A6B8-DE4A4D97B616}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7BB79639-C6AC-4E9F-8308-06117D84223A}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,28 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<style>
+    .container {
+        height: calc(100% - 128px);
+        max-width: inherit;
+    }
+
+    #host, .pb-3 {
+        height: 100%;
+    }
+</style>
+<div id="host"></div>
+<script src="~/lib/node_modules/@@grapecity/gcpdfviewer/gcpdfviewer.js" asp-append-version="true"></script>
+<script>
+    GcPdfViewer.LicenseKey = 'XXXXX';
+
+    var viewer = new GcPdfViewer("#host", { supportApi: 'api/pdf-viewer' });
+    viewer.addDefaultPanels();
+    viewer.addAnnotationEditorPanel();
+    viewer.addFormEditorPanel();
+    viewer.beforeUnloadConfirmation = true;
+    viewer.newDocument();
+</script>
